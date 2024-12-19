@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#main{
+    background-color: rgb(176, 177, 177);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    
+
+}
+#free{
+    background: linear-gradient(rgb(212, 14, 116),rgb(18, 18, 105));
+    width: 450px;
+    height: 730px;
+    margin-top: 120px;
+    border-radius: 15px;
+    box-shadow: 120px rgb(0, 0, 0) ;
+}
+#free h1{
+    color: rgb(229, 255, 0);
+    text-align: center;
+    font-size: 3.6em;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+.TextTittle {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+
+}
+.TextTittle p{
+    font-size: 2.4em;
+    justify-content: center;
+    color: aliceblue;
+}
+.TextTittle h3{
+    font-size: 4.2em;
+    margin-top: -20px;
+    color: aliceblue;
+    
+}
+#free hr{
+    margin: 0px 40px;
+    color: rgb(212, 30, 30);
+
+}
+.iconText{
+    display: flex;
+    gap: 15px; 
+    margin-top: 11px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.iconText i{
+    font-size: 1.4em;
+    color: rgb(229, 255, 0);
+}
+.iconText p{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+button{
+    color: rgb(0, 0, 0);
+    font-size: 37px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 70px;
+    /* margin: 40% 90px 15% 70px ; */
+    border: none;
+    border-radius: 60px;
+    margin-top: 60px;
+    margin-left: 19.5%;
+
+
+}
+/* .yu button{
+    color: wheat;
+    margin-top: 5%;
+    border-radius: 20px;
+} */
